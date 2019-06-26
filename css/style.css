@@ -1,4 +1,4 @@
-input {
+3input {
   border: solid 1px black;
 }
 
@@ -24,18 +24,35 @@ input {
   border-radius: 4px;
 }
 
+.button-success {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
 .btn-success {
-    color: #fff;
-    background-color: #5cb85c;
-    border-color: #4cae4c;
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  border-radius: 4px;
 }
 
 .btn-delete {
-    color: #fff;
-    background-color: #CF000F;
-    border-color: #CF000F;
+  color: #fff;
+  background-color: #cf000f;
+  border-color: #cf000f;
+  border-radius: 4px;
 }
 
 .quantity {
   margin: 0 5px;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
 }
